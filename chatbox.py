@@ -18,7 +18,7 @@ if st.button("Get Answer"):
     if prompt:
         try:
             
-            model = ChatGoogleGenerativeAI(model="gemini-2.0-flash")
+            model = ChatGoogleGenerativeAI(model="gemini-2.0-flash",google_api_key=GOOGLE_API_KEY)
 
           
             response = model.invoke([
