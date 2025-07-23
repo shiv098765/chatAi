@@ -13,7 +13,6 @@ langchain-anthropic
 langchain-google-genai
 google-generativeai
 
-
 # Hugging Face Integration
 langchain-huggingface
 transformers
@@ -26,5 +25,5 @@ python-dotenv
 numpy
 scikit-learn
 
-strimlist
-
+# Streamlit for UI
+streamlit
